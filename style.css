@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Navbar start */
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: #5D8233;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 250px;
+}
+
+.navbar .logo h1 {
+    color: #F5F5F5; 
+}
+
+.navbar .logo h1 span {
+    color: #FFD700; 
+}
+
+.logo h1{
+    color: #F5F5F5;
+}
+
+.listItem{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.list{
+    font-size: 18px;
+    color: #FFD700;
+}
+
+.list:hover{
+    text-decoration: underline;
+    color: #E3CBA5;
+}
+/* Navbar End */
+
+/* Home Start */
+.home{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+    height: 680px;
+}
+
+.name{
+    margin-left: 20%;
+    height: 500px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name h1{
+    line-height: 8px;
+    font-size: 40px;
+}
+
+.home .name h1 span {
+    color: #FFD700;
+}
+
+
+.profileImg img{
+    border-radius: 50%;
+    height: 400px;
+    width: 300px;
+}
+
+.homeBtn{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+.homeBtn button{
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffd700;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.homeBtn button:hover {
+    background-color: #a8e063;
+}
+
+/* about start */
+.about{
+    width: inherit;
+    height: 500px;
+    display: flex;
+    gap: 70px;
+    padding: 10% 10% 0px 10%;
+    background-color: #F3E9D2;
+    color: #333;
+}
+
+.about .infoDiv h1 span {
+    color: #5D8233;
+}
+
+.infoDiv button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffd700;
+    color: #333;
+}
+
+.about button:hover {
+    background-color: #a8e063;
+}
+
+/* About end */
+
+/* Skill start */
+.skill{
+    width: inherit;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E3F6F5;
+    color: #2D2A32;
+}
+
+.skill h1{
+    text-align: center;
+    color: #333;
+}
+
+.skillList{
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(7, 7, 7, 0.066);
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 150px;
+    width: 200px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f7fbe1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card #boot{
+    /* color: purple; */
+    font-size: 28px;
+}
+
+.rating i {
+    color: #ffd700;
+}
+/* Skill end */
+
+/* education start */
+.ed{
+    height: 450px;
+    background-color: #FDFCDC;
+    padding-top: 10px;
+    color: #2D2A32;
+}
+
+.ed h1{
+    text-align: center;
+}
+
+.ed h1 span {
+    color: #5D8233; /* Olive Green */
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.institute{
+    width: 70%;
+    height: 150px;
+    display: flex;
+    background-color: #F5F5F5;
+    color: #333;
+    margin-bottom: 10px;
+    gap: 20px;
+    border-radius: 10px;
+    
+}
+
+.edInfo{
+    width: 70%;
+    text-align: start;
+}
+
+
+/* education end */
+
+/* Project start */
+.projectDiv{
+    height: 570px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D3D3D3;
+    color: #2D2A32;
+}
+
+.pheading{
+    font-size: 34px;
+    color: #674141;
+}
+
+.project{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project1, .project2{
+    height: 450px;
+    width: 25%;
+    border: none;
+    border-radius: 8px;
+    background-color: #F5F5F5;
+    color: #333;
+}
+
+.pdown{
+    padding: 0px 15px;
+}
+
+.pbtn{
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFD700;
+    color: #333;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.pbtn:hover {
+    background-color: #5D8233; 
+    color: #F5F5F5;
+}
+
+/* Project end */
+
+/* Footer start */
+footer{
+    height: 350px;
+    width: 100%;
+    display: flex;
+    background-color:#2D2A32;
+    color: #F5F5F5;
+    justify-content: space-evenly;
+}
+
+.logo, .qlink, .info{
+    width: 20%;
+    color: #F5F5F5;
+    margin-top: 20px;
+    /* background-color: red; */
+}
+
+/* Contct Page */
